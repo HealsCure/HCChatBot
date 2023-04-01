@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot</title>
+</head>
+<body>
+  <style>
+    .chatbot-container {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.chatbot-header {
+  background-color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.chatbot-header h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.chatbot-body {
+  padding: 20px;
+}
+
+.chatbot-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.chatbot-submit {
+  width: 100%;
+  height: 40px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.chatbot-response {
+  padding: 20px;
+  overflow-y: auto;
+}
+  </style>
+  <h1>Chatbot</h1>
+  <p>What would you like to talk about?</p>
+  <input type="text" name="message" value="">
+  <input type="submit" value="Send">
+  <div id="chatbot-response"></div>
+</body>
+</html>
